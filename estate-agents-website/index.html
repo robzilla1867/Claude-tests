@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harbourview Estates | Property Sales &amp; Lettings</title>
+<meta name="description" content="Harbourview Estates - trusted local estate agents for buying, selling and renting property.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="logo">Harbourview <span>Estates</span></a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#buy">Buy</a>
+      <a href="#rent">Rent</a>
+      <a href="#sell">Sell</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="tel:+441234567890" class="phone-link">📞 01234 567 890</a>
+      <a href="#contact" class="btn btn-primary">Book a valuation</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1>Find your next home with people who know the local market</h1>
+      <p>Sales, lettings and valuations across the city — honest advice, no pushy sales, just results.</p>
+
+      <form class="search-card" id="search-form">
+        <div class="search-tabs">
+          <button type="button" class="search-tab active" data-mode="buy">Buy</button>
+          <button type="button" class="search-tab" data-mode="rent">Rent</button>
+        </div>
+        <div class="search-fields">
+          <input type="text" placeholder="Location, postcode or area" aria-label="Location">
+          <select aria-label="Property type">
+            <option>Any property type</option>
+            <option>House</option>
+            <option>Flat / Apartment</option>
+            <option>Bungalow</option>
+            <option>New build</option>
+          </select>
+          <select aria-label="Price range">
+            <option>Any price</option>
+            <option>Up to £200,000</option>
+            <option>£200,000 - £400,000</option>
+            <option>£400,000 - £600,000</option>
+            <option>£600,000+</option>
+          </select>
+          <button type="submit" class="btn btn-primary search-btn">Search properties</button>
+        </div>
+      </form>
+
+      <div class="hero-stats">
+        <div><strong>1,200+</strong><span>Properties sold</span></div>
+        <div><strong>4.9★</strong><span>Average rating</span></div>
+        <div><strong>18</strong><span>Years trading locally</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured properties -->
+  <section class="featured" id="buy">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <h2>Featured properties</h2>
+          <p>A selection of our latest homes on the market.</p>
+        </div>
+        <a href="#" class="link-more">View all properties →</a>
+      </div>
+
+      <div class="property-grid">
+
+        <article class="property-card">
+          <div class="property-image" style="background-image:url('https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=60')">
+            <span class="tag">For sale</span>
+          </div>
+          <div class="property-body">
+            <p class="price">£425,000</p>
+            <h3>Maple Grove, Riverside</h3>
+            <p class="meta">4 bed · 2 bath · Detached house</p>
+          </div>
+        </article>
+
+        <article class="property-card">
+          <div class="property-image" style="background-image:url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=60')">
+            <span class="tag">For sale</span>
+          </div>
+          <div class="property-body">
+            <p class="price">£279,950</p>
+            <h3>Chapel Street, Old Town</h3>
+            <p class="meta">2 bed · 1 bath · Terraced house</p>
+          </div>
+        </article>
+
+        <article class="property-card">
+          <div class="property-image" style="background-image:url('https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=60')">
+            <span class="tag tag-rent">To let</span>
+          </div>
+          <div class="property-body">
+            <p class="price">£1,150 <span>pcm</span></p>
+            <h3>Harbour View Apartments</h3>
+            <p class="meta">1 bed · 1 bath · Apartment</p>
+          </div>
+        </article>
+
+        <article class="property-card">
+          <div class="property-image" style="background-image:url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60')">
+            <span class="tag">For sale</span>
+          </div>
+          <div class="property-body">
+            <p class="price">£615,000</p>
+            <h3>Orchard Close, Hillside</h3>
+            <p class="meta">5 bed · 3 bath · Detached house</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Why choose us -->
+  <section class="why" id="sell">
+    <div class="container why-inner">
+      <div class="why-text">
+        <h2>Thinking of selling or letting?</h2>
+        <p>We combine local knowledge with modern marketing to get your property in front of the right buyers and tenants — fast.</p>
+        <ul class="checklist">
+          <li>Free, no-obligation valuation</li>
+          <li>Professional photography &amp; floor plans included</li>
+          <li>Listed on Rightmove, Zoopla &amp; OnTheMarket</li>
+          <li>Dedicated local agent from valuation to completion</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Get a free valuation</a>
+      </div>
+      <div class="why-image" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=60')"></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-heading center">
+        <h2>What our clients say</h2>
+      </div>
+      <div class="testimonial-grid">
+        <blockquote>
+          <p>“Sold our flat in three weeks, well above asking. The team kept us updated every step of the way.”</p>
+          <cite>— Sarah &amp; James, Riverside</cite>
+        </blockquote>
+        <blockquote>
+          <p>“Found us a rental within days and made the whole process painless. Highly recommend.”</p>
+          <cite>— Michael T., Old Town</cite>
+        </blockquote>
+        <blockquote>
+          <p>“Honest valuation, no pressure, and genuinely knew the local market inside out.”</p>
+          <cite>— Priya K., Hillside</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / CTA -->
+  <section class="cta" id="contact">
+    <div class="container cta-inner">
+      <div>
+        <h2>Ready to make your move?</h2>
+        <p>Book a free valuation or ask us a question — we usually reply within the hour.</p>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your name" required>
+        <input type="email" placeholder="Email address" required>
+        <input type="tel" placeholder="Phone number">
+        <textarea placeholder="Tell us a bit about your property or what you're looking for" rows="3"></textarea>
+        <button type="submit" class="btn btn-primary">Send message</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="about">
+  <div class="container footer-inner">
+    <div>
+      <a href="#" class="logo">Harbourview <span>Estates</span></a>
+      <p>Your trusted local estate agent since 2008.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="#buy">Properties for sale</a>
+      <a href="#rent">Properties to rent</a>
+      <a href="#sell">Sell your home</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>12 High Street, Harbourview</p>
+      <p>01234 567 890</p>
+      <p>hello@harbourviewestates.co.uk</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> Harbourview Estates. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
