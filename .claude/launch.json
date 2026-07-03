@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "aesthetics-brand-website",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/private/tmp/claude-501/-Users-robholden-Documents-GitHub-Claude-tests/132d9582-2e8e-4c82-b821-cf1ac582b385/scratchpad/serve.py"],
+      "port": 8765
+    }
+  ]
+}
