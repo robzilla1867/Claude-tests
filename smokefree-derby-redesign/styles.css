@@ -88,7 +88,7 @@ img {
 }
 
 .logo img {
-  height: 68px;
+  height: 52px;
   width: auto;
 }
 
@@ -100,8 +100,8 @@ img {
 
 .main-nav a {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: 700;
+  font-size: 15px;
   color: var(--teal-dark);
   padding: 8px 14px;
   border-radius: 6px;
@@ -142,8 +142,8 @@ img {
   grid-template-columns: 0.95fr 1.05fr;
   align-items: center;
   gap: 40px;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   position: relative;
 }
 
@@ -196,26 +196,24 @@ img {
   background: var(--teal-darker);
 }
 
-.hero-note {
-  margin-top: 28px;
-  font-size: 14px;
-  color: var(--teal-dark);
-}
-
-.hero-note strong {
-  font-family: "Montserrat", sans-serif;
-}
-
 .hero-visual {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hero-visual svg {
+.hero-photo {
   width: 100%;
-  max-width: 540px;
-  height: auto;
+  min-height: 380px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.hero-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 /* ---------- Section shells ---------- */
@@ -251,6 +249,10 @@ section {
 
 /* ---------- Find local support ---------- */
 
+#find-support {
+  padding-top: 45px;
+}
+
 .support-finder {
   background: var(--mint-bg-soft);
   border: 1px solid var(--mint-bg);
@@ -259,6 +261,21 @@ section {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
   gap: 56px;
+  align-items: center;
+}
+
+.support-finder-photo {
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.support-finder-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .location-buttons {
@@ -272,6 +289,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: var(--white);
   border: 1px solid var(--teal-mid);
   border-left: 4px solid var(--teal-light);
   border-radius: 6px;
@@ -294,8 +312,9 @@ section {
 
 .treatment-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 28px 0 0;
+  padding: 20px 0 0;
+  border-top: 1px solid var(--mint-bg);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -347,6 +366,20 @@ section {
   position: relative;
 }
 
+.feature-photo {
+  width: 100%;
+  min-height: 320px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.feature-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .feature-media .media-card {
   background: var(--mint-bg);
   border-radius: var(--radius-md);
@@ -356,22 +389,6 @@ section {
   flex-direction: column;
   justify-content: center;
   gap: 16px;
-  color: var(--teal-dark);
-}
-
-.feature-media .media-card .stat-big {
-  font-family: "Montserrat", sans-serif;
-  font-size: 56px;
-  font-weight: 800;
-  line-height: 1;
-  color: var(--teal-dark);
-}
-
-.feature-media .media-card .stat-label {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  max-width: 320px;
   color: var(--teal-dark);
 }
 
@@ -477,23 +494,13 @@ section {
 }
 
 .footer-brand img {
-  height: 58px;
-  margin-bottom: 16px;
-}
-
-.footer-brand p {
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.65);
+  height: 46px;
 }
 
 .newsletter-card {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: var(--radius-md);
-  padding: 24px 28px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
@@ -503,13 +510,15 @@ section {
   color: var(--white);
 }
 
-.newsletter-card .btn-primary {
-  background: var(--teal-light);
-  color: var(--teal-darker);
+.newsletter-card a {
+  color: var(--teal-light);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-.newsletter-card .btn-primary:hover {
-  background: var(--white);
+.newsletter-card a:hover {
+  color: var(--white);
 }
 
 .footer-divider {
