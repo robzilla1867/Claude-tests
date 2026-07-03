@@ -8,6 +8,7 @@
   --blush: #e7dcd3;
   --line: rgba(42, 39, 36, 0.12);
   --serif: 'Playfair Display', serif;
+  --body: 'Lora', serif;
   --sans: 'Jost', sans-serif;
   --ease: cubic-bezier(.22, 1, .36, 1);
 }
@@ -17,10 +18,10 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: var(--sans);
+  font-family: var(--body);
   color: var(--charcoal);
   background: var(--ivory);
-  line-height: 1.6;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -49,6 +50,7 @@ h1, h2, h3 {
   background: var(--charcoal);
   color: var(--blush);
   text-align: center;
+  font-family: var(--sans);
   font-size: 0.78rem;
   letter-spacing: 0.05em;
   padding: 9px 20px;
@@ -96,6 +98,7 @@ h1, h2, h3 {
 }
 
 .nav-links a {
+  font-family: var(--sans);
   font-size: 0.92rem;
   letter-spacing: 0.02em;
   position: relative;
@@ -275,6 +278,7 @@ h1, h2, h3 {
 }
 
 .trust-item span {
+  font-family: var(--sans);
   font-size: 0.8rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -287,6 +291,8 @@ h1, h2, h3 {
   margin: 0 auto;
   padding: 120px 32px;
 }
+
+.band-cream { background: var(--cream); }
 
 .section-head {
   text-align: center;
@@ -343,6 +349,7 @@ h1, h2, h3 {
 
 .price {
   display: inline-block;
+  font-family: var(--sans);
   font-size: 0.78rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -459,6 +466,7 @@ h1, h2, h3 {
 }
 
 .testimonial cite {
+  font-family: var(--sans);
   font-size: 0.82rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -485,6 +493,7 @@ h1, h2, h3 {
 }
 
 .contact-detail strong {
+  font-family: var(--sans);
   font-size: 0.78rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -558,6 +567,7 @@ h1, h2, h3 {
 
 .footer-links a, .footer-social a {
   display: block;
+  font-family: var(--sans);
   font-size: 0.92rem;
   color: rgba(248,245,240,0.75);
   margin-bottom: 12px;
