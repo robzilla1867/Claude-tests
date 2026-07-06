@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "best-start-in-life-derbyshire",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "serve", "-l", "4173", "best-start-in-life-derbyshire"],
+      "port": 4173
+    }
+  ]
+}
