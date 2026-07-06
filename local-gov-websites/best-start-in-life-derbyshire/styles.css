@@ -4,6 +4,7 @@
   --amber: #F5A623;
   --magenta: #E6007E;
   --blue: #0077C8;
+  --blue-light: #E6F1FA;
   --purple: #7B2D8E;
   --purple-dark: #631F73;
   --off-white: #F6F5F2;
@@ -277,7 +278,7 @@ section h2 {
   gap: 10px;
   text-decoration: none;
   color: var(--text);
-  background: var(--off-white);
+  background: var(--blue-light);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 22px;
