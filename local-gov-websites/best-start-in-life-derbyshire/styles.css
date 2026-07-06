@@ -96,12 +96,12 @@ a {
 }
 
 .btn-hero {
-  background: var(--white);
+  background: var(--amber);
   color: var(--navy);
 }
 
 .btn-hero:hover {
-  background: var(--off-white);
+  background: #D9930F;
 }
 
 /* Header */
@@ -277,7 +277,7 @@ section h2 {
   gap: 10px;
   text-decoration: none;
   color: var(--text);
-  background: var(--white);
+  background: var(--off-white);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 22px;
@@ -439,7 +439,7 @@ section h2 {
   grid-row: 3;
   text-align: right;
   color: #B9C3DE;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .footer-copyright p {
