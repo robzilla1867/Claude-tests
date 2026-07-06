@@ -142,12 +142,12 @@ a {
 
 .logo-title {
   font-weight: 800;
-  font-size: 1.15rem;
+  font-size: 1.4rem;
   color: var(--navy);
 }
 
 .logo-sublabel {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: var(--purple);
   letter-spacing: 0.03em;
@@ -164,7 +164,7 @@ a {
 
 .primary-nav a {
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   font-weight: 600;
   color: var(--text);
 }
@@ -279,7 +279,6 @@ section h2 {
   color: var(--text);
   background: var(--white);
   border: 1px solid var(--border);
-  border-top: 4px solid var(--accent, var(--navy));
   border-radius: 8px;
   padding: 22px;
   transition: box-shadow 0.15s ease, transform 0.15s ease;
@@ -374,13 +373,13 @@ section h2 {
 
 .footer-logo-text {
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 1.15rem;
 }
 
 .footer-logo-text span {
   display: block;
   font-weight: 500;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: #B9C3DE;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -422,7 +421,7 @@ section h2 {
 .footer-legal {
   grid-column: 1;
   grid-row: 3;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
 }
 
 .footer-legal a {
