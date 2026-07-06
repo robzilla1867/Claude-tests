@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "best-start-static",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/Users/robholden/Documents/GitHub/Claude-tests/local-gov-websites/.claude/serve.py"],
+      "port": 4173
+    }
+  ]
+}
