@@ -6,6 +6,7 @@
 - Simple nav, minimal decoration, GDS-influenced layout conventions
 - Footer includes accessibility statement and privacy policy links
 
+
 ## Footer layout
 
 Four-quadrant grid, split by a horizontal divider line through the vertical middle.
@@ -19,3 +20,12 @@ Four-quadrant grid, split by a horizontal divider line through the vertical midd
 Structure as a 2x2 CSS grid (or two stacked flex rows), not a single row of items — the top-left/top-right pairing and bottom-left/bottom-right pairing should visually align as columns, with the horizontal line acting as a clear break between the two "quarters" of content above and below it.
 
 Keep the footer's background a neutral or dark neutral tone (e.g. off-white or navy, matching the gov colour palette), generous padding, and legible link text at normal body size — not tiny fine print.
+
+
+## Hero banner padding
+
+The hero section currently has excessive top and bottom padding. Reduce it significantly — 
+target roughly 40% less vertical padding than a typical default hero section (e.g. if the 
+default would be around 120px top/bottom, aim for closer to 70px). The hero should feel 
+compact and tight, not like it's floating in empty space. Keep left/right padding as normal — 
+this only applies to top and bottom.
