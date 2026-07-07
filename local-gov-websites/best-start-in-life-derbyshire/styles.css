@@ -324,11 +324,14 @@ section h2 {
   display: flex;
   align-items: flex-start;
   gap: 48px;
-  padding: 56px 0 64px;
+  padding: 32px 0 64px;
 }
 
 .page-sidebar {
   flex: 0 0 240px;
+  background: var(--grey-light);
+  border-radius: 8px;
+  padding: 20px 16px;
 }
 
 .page-sidebar-heading {
@@ -360,11 +363,11 @@ section h2 {
 }
 
 .page-sidebar a:hover {
-  background: var(--grey-lighter);
+  background: var(--white);
 }
 
 .page-sidebar a[aria-current="page"] {
-  background: var(--grey-lighter);
+  background: var(--white);
   border-left-color: var(--purple);
   color: var(--purple-dark);
   font-weight: 600;
