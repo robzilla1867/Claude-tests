@@ -180,6 +180,11 @@ a {
   color: var(--purple);
 }
 
+.primary-nav a[aria-current="page"] {
+  color: var(--purple-dark);
+  font-weight: 600;
+}
+
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -253,6 +258,114 @@ section h2 {
   color: var(--text-muted);
   margin-bottom: 32px;
   max-width: 60ch;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  padding-top: 24px;
+}
+
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb li:not(:last-child)::after {
+  content: "/";
+  margin: 0 8px;
+  color: var(--border);
+}
+
+.breadcrumb a {
+  color: var(--purple-dark);
+  text-decoration: underline;
+}
+
+.breadcrumb li[aria-current="page"] {
+  color: var(--text-muted);
+}
+
+/* Page layout (landing/topic pages with a section sidebar) */
+.page-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+  padding: 40px 0 64px;
+}
+
+.page-sidebar {
+  flex: 0 0 240px;
+}
+
+.page-sidebar-heading {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+  margin: 0 0 12px;
+}
+
+.page-sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.page-sidebar a {
+  display: block;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border-left: 3px solid transparent;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.page-sidebar a:hover {
+  background: var(--grey-lighter);
+}
+
+.page-sidebar a[aria-current="page"] {
+  background: var(--grey-lighter);
+  border-left-color: var(--purple);
+  color: var(--purple-dark);
+  font-weight: 600;
+}
+
+.page-content {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.page-content h1 {
+  margin-top: 0;
+}
+
+.page-intro {
+  font-size: 1.1rem;
+  max-width: 65ch;
+}
+
+.page-content > p {
+  max-width: 65ch;
+}
+
+.page-content .card-grid {
+  margin-top: 32px;
 }
 
 .top-tasks {
@@ -451,6 +564,20 @@ section h2 {
 @media (max-width: 900px) {
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .page-layout {
+    flex-direction: column;
+  }
+
+  .page-sidebar {
+    flex-basis: auto;
+    width: 100%;
+  }
+
+  .page-sidebar ul {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
