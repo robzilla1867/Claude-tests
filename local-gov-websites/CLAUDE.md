@@ -138,3 +138,12 @@ content. Apply the following:
   than scrolling out of sight after the first screen
 - **Column width** — give the nav enough width to breathe; avoid a cramped narrow column 
   squeezed against the content
+
+
+  ## Link visited state
+
+Links should not change colour after being clicked/visited — the default browser "visited" 
+purple (or any other visited-state colour change) should be explicitly overridden. All links 
+keep the same colour whether visited or not, relying only on hover/focus states (and the 
+active-page indicator defined in the left navigation section) to show interactivity or 
+current location — not visited history.

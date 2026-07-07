@@ -42,7 +42,8 @@ p {
   margin: 0 0 1.5em;
 }
 
-a {
+a,
+a:visited {
   color: inherit;
 }
 
@@ -329,7 +330,7 @@ section h2 {
 
 .page-sidebar {
   flex: 0 0 240px;
-  background: var(--grey-light);
+  background: var(--grey-lighter);
   border-radius: 8px;
   padding: 20px 16px;
 }
