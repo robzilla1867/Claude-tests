@@ -6,8 +6,8 @@
   --blue: #0077C8;
   --purple: #7B2D8E;
   --purple-dark: #631F73;
-  --off-white: #F6F5F2;
   --grey-light: #F1F2F4;
+  --grey-lighter: #F7F8F9;
   --white: #FFFFFF;
   --text: #12203F;
   --text-muted: #4A5568;
@@ -258,7 +258,7 @@ section h2 {
 
 .news {
   padding: 56px 0;
-  background: var(--off-white);
+  background: var(--grey-light);
 }
 
 /* Card grid */
@@ -274,7 +274,7 @@ section h2 {
   gap: 10px;
   text-decoration: none;
   color: var(--text);
-  background: var(--grey-light);
+  background: var(--grey-lighter);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 22px;
@@ -435,7 +435,7 @@ section h2 {
   grid-column: 2;
   grid-row: 3;
   text-align: right;
-  color: #B9C3DE;
+  color: var(--white);
   font-size: 0.85rem;
 }
 
