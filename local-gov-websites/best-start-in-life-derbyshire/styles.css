@@ -277,7 +277,7 @@ section h2 {
   background: var(--grey-lighter);
   border: 1px solid var(--border);
   border-radius: 8px;
-  padding: 22px;
+  padding: 32px;
   transition: box-shadow 0.15s ease, transform 0.15s ease;
 }
 
@@ -313,7 +313,7 @@ section h2 {
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: 8px;
-  padding: 22px;
+  padding: 32px;
 }
 
 .news-date {
