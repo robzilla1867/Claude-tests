@@ -82,3 +82,30 @@ compact spacing as defined above)
   "Find a Family Hub"). Headings stand alone.
 - **Title weight** — avoid heavy/bold weights (700+) on headings; use 400–500 instead, even 
   for h1/h2. Titles should feel calm and understated, not shouty.
+
+  ## Page types
+
+Rules below apply per page type. "Homepage" rules take priority on the homepage; all other 
+page types inherit the general gov-style, tone, and typography rules above unless stated 
+otherwise here.
+
+### Homepage
+- Hero section as previously defined (headline, mission statement, CTA, reduced padding)
+- No page-title block or breadcrumb bar — the hero serves that purpose
+
+### Landing page / content page (all pages except the homepage)
+- **Page header block** — every page apart from the homepage has a solid orange block at the 
+  very top of the page, directly below the site header/nav. This block contains:
+  - The page's H1 title
+  - Breadcrumb navigation (e.g. Home > Childcare > Find a Family Hub), sitting above or 
+    directly below the H1 within the same block
+  - This creates visual consistency with the homepage hero — every page has a strong, 
+    colour-anchored top section, just smaller and more utilitarian than the homepage hero
+- Orange block: full width of the page container (not full viewport — stays within the 1400px 
+  wrapper per the page container rule), moderate padding (noticeably less than the homepage 
+  hero — this is a page-identifier band, not a hero)
+- H1 text colour: dark navy or white — whichever passes WCAG 2.2 AA contrast against the 
+  orange background (check both and use whichever is compliant, defaulting to navy if both pass)
+- Breadcrumb links: smaller text than the H1, same contrast rule applies
+- Below the orange block, the rest of the page follows normal body content spacing/typography 
+  rules as defined above
