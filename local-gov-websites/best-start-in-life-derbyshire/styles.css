@@ -407,7 +407,6 @@ section h2 {
 
 /* Sign-up form panel */
 .signup-panel {
-  max-width: 600px;
   margin-top: 48px;
   padding: 32px;
   background: var(--grey-lighter);
@@ -445,6 +444,8 @@ section h2 {
   border-radius: 6px;
   background: var(--white);
   color: var(--text);
+  width: 100%;
+  max-width: 480px;
 }
 
 .form-group input:focus-visible {
