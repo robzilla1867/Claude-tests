@@ -109,3 +109,32 @@ otherwise here.
 - Breadcrumb links: smaller text than the H1, same contrast rule applies
 - Below the orange block, the rest of the page follows normal body content spacing/typography 
   rules as defined above
+
+  ## Spacing below page header block
+
+On all pages except the homepage, reduce the gap between the bottom of the orange page-header 
+block and the content that follows by roughly 20% compared to the default spacing Claude Code 
+would otherwise apply. This keeps the page feeling connected to its header rather than leaving 
+a large empty gap immediately below it. This does not apply to the homepage, which has no 
+orange block.
+
+
+  ## Left navigation
+
+The left-hand navigation currently lacks visual presence and gets lost against the page 
+content. Apply the following:
+
+- **Background panel** — give the nav column a distinct light background (a pale tint of 
+  navy or blue from the palette, e.g. Blue at its lightest stop), clearly separating it from 
+  the white/off-white main content area
+- **Active page indicator** — the current page's nav item gets a left border accent (3-4px, 
+  primary navy or blue) plus a subtle background tint, distinct from inactive items
+- **Nav item weight** — medium weight (500) on nav labels, slightly heavier than the reduced 
+  body/heading weight used elsewhere, so the nav reads as structural navigation rather than 
+  body text
+- **Spacing** — generous vertical gap between nav items (consistent with the wider body 
+  spacing already defined) so items are easy to scan individually
+- **Sticky positioning** — the nav stays in view as the user scrolls the main content, rather 
+  than scrolling out of sight after the first screen
+- **Column width** — give the nav enough width to breathe; avoid a cramped narrow column 
+  squeezed against the content

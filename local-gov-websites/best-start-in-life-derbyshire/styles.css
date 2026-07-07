@@ -379,6 +379,23 @@ section h2 {
   font-size: 1.1rem;
 }
 
+.page-content h2 {
+  font-size: 1.4rem;
+  color: var(--navy);
+}
+
+.steps-list {
+  padding-left: 1.2em;
+}
+
+.steps-list li {
+  margin-bottom: 0.75em;
+}
+
+.page-content .btn-primary {
+  margin-top: 8px;
+}
+
 .page-content .card-grid {
   margin-top: 32px;
 }
