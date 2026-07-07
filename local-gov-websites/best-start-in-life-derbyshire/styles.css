@@ -4,10 +4,10 @@
   --amber: #F5A623;
   --magenta: #E6007E;
   --blue: #0077C8;
-  --blue-light: #B2D6EE;
   --purple: #7B2D8E;
   --purple-dark: #631F73;
   --off-white: #F6F5F2;
+  --grey-light: #E7E9EC;
   --white: #FFFFFF;
   --text: #12203F;
   --text-muted: #4A5568;
@@ -53,7 +53,7 @@ a {
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 56px;
 }
 
 .visually-hidden {
@@ -283,7 +283,7 @@ section h2 {
   gap: 10px;
   text-decoration: none;
   color: var(--text);
-  background: var(--blue-light);
+  background: var(--grey-light);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 22px;
@@ -505,6 +505,10 @@ section h2 {
 }
 
 @media (max-width: 640px) {
+  .container {
+    padding: 0 24px;
+  }
+
   .card-grid {
     grid-template-columns: 1fr;
   }
