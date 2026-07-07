@@ -31,8 +31,31 @@ compact and tight, not like it's floating in empty space. Keep left/right paddin
 this only applies to top and bottom.
 
 
-## Container width
+## Page container
 
-The main content container (header, hero, sections, footer) should use a max-width of
-1400px, not a narrower default — pages should feel wide and make use of larger screens
-rather than staying boxed into a ~1200px column.
+The entire page — including section backgrounds — sits within a single centred wrapper, 
+max-width 1400px, margin: 0 auto. Do not let section backgrounds stretch full viewport width; 
+every section (hero, top tasks, news, footer) stays within the same 1400px container.
+
+The space created on either side of the wrapper on screens wider than 1400px is plain white 
+(or the site's neutral background colour — not a section's accent colour). This should never 
+be filled with colour, imagery, or content — it's intentional whitespace, keeping the whole 
+page feeling calm, contained, and simple, consistent with the rest of the gov-style rules.
+
+
+## Tone of voice
+
+Calm and simple, above all else. Every header and piece of content should be genuinely 
+helpful — write as if a competent, patient person is explaining something to someone who's 
+tired, busy, or a bit overwhelmed.
+
+- Plain English. Short sentences. No jargon, no marketing language, no exclamation points.
+- Headers should tell the reader exactly what they'll get if they click or read on — 
+  "Find a Family Hub near you" rather than "Family Hub Locator" or "Discover Our Services"
+- Never oversell or hype anything. No "amazing," "exciting," "don't miss out" — the tone is 
+  helpful, not persuasive
+- Reassuring without being sentimental — "If you're not sure where to start, that's OK" reads 
+  well; overly warm or twee phrasing does not
+- Be direct about what something is and what it does before adding any supporting detail
+- If unsure whether a line is too clever or too soft, simplify it further — plain and 
+  slightly plain-feeling is always the safer choice over anything clever or emotive

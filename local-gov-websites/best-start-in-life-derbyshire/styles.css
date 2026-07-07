@@ -5,7 +5,6 @@
   --magenta: #E6007E;
   --blue: #0077C8;
   --blue-light: #B2D6EE;
-  --amber-light: #F8C165;
   --purple: #7B2D8E;
   --purple-dark: #631F73;
   --off-white: #F6F5F2;
@@ -44,6 +43,11 @@ p {
 
 a {
   color: inherit;
+}
+
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .container {
@@ -98,12 +102,12 @@ a {
 }
 
 .btn-hero {
-  background: var(--amber);
-  color: var(--navy);
+  background: var(--navy);
+  color: var(--white);
 }
 
 .btn-hero:hover {
-  background: #D9930F;
+  background: var(--navy-light);
 }
 
 /* Header */
@@ -198,8 +202,8 @@ a {
 
 /* Hero */
 .hero {
-  background: var(--purple);
-  color: var(--white);
+  background: var(--amber);
+  color: var(--navy);
   padding: 72px 0;
 }
 
@@ -218,18 +222,18 @@ a {
   letter-spacing: 0.06em;
   font-size: 0.8rem;
   font-weight: 700;
-  color: var(--amber-light);
+  color: var(--purple-dark);
   margin-bottom: 12px;
 }
 
 .hero h1 {
   font-size: clamp(2rem, 4vw, 2.75rem);
-  color: var(--white);
+  color: var(--navy);
 }
 
 .hero-mission {
   font-size: 1.15rem;
-  color: #D8E0F2;
+  color: var(--navy);
   max-width: 46ch;
 }
 
@@ -353,7 +357,7 @@ section h2 {
 
 /* Footer */
 .site-footer {
-  background: var(--navy);
+  background: var(--purple);
   color: var(--white);
   padding: 48px 0 32px;
 }
