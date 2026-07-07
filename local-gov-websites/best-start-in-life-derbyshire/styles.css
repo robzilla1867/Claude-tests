@@ -182,7 +182,7 @@ a:visited {
 }
 
 .primary-nav a[aria-current="page"] {
-  color: var(--purple-dark);
+  color: var(--text);
   font-weight: 600;
 }
 
@@ -304,7 +304,7 @@ section h2 {
 }
 
 .breadcrumb a {
-  color: var(--purple-dark);
+  color: var(--text-muted);
   text-decoration: underline;
 }
 
@@ -316,6 +316,7 @@ section h2 {
   color: rgba(11, 31, 75, 0.4);
 }
 
+.page-header .breadcrumb a,
 .page-header .breadcrumb li[aria-current="page"] {
   color: var(--navy);
 }
