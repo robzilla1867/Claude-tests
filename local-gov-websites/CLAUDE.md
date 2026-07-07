@@ -29,3 +29,10 @@ target roughly 40% less vertical padding than a typical default hero section (e.
 default would be around 120px top/bottom, aim for closer to 70px). The hero should feel 
 compact and tight, not like it's floating in empty space. Keep left/right padding as normal — 
 this only applies to top and bottom.
+
+
+## Container width
+
+The main content container (header, hero, sections, footer) should use a max-width of
+1400px, not a narrower default — pages should feel wide and make use of larger screens
+rather than staying boxed into a ~1200px column.

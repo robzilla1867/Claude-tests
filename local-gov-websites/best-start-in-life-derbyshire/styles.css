@@ -4,7 +4,8 @@
   --amber: #F5A623;
   --magenta: #E6007E;
   --blue: #0077C8;
-  --blue-light: #E6F1FA;
+  --blue-light: #B2D6EE;
+  --amber-light: #F8C165;
   --purple: #7B2D8E;
   --purple-dark: #631F73;
   --off-white: #F6F5F2;
@@ -12,7 +13,7 @@
   --text: #12203F;
   --text-muted: #4A5568;
   --border: #E2E5EC;
-  --max-width: 1180px;
+  --max-width: 1400px;
 }
 
 * {
@@ -197,7 +198,7 @@ a {
 
 /* Hero */
 .hero {
-  background: var(--navy);
+  background: var(--purple);
   color: var(--white);
   padding: 72px 0;
 }
@@ -217,7 +218,7 @@ a {
   letter-spacing: 0.06em;
   font-size: 0.8rem;
   font-weight: 700;
-  color: var(--amber);
+  color: var(--amber-light);
   margin-bottom: 12px;
 }
 
