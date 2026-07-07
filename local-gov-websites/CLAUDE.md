@@ -59,3 +59,16 @@ tired, busy, or a bit overwhelmed.
 - Be direct about what something is and what it does before adding any supporting detail
 - If unsure whether a line is too clever or too soft, simplify it further — plain and 
   slightly plain-feeling is always the safer choice over anything clever or emotive
+
+
+  ## Typography and spacing adjustments
+
+- **No eyebrows** — don't add small label/category text above headings (e.g. "SERVICES" 
+  sitting above "Find a Family Hub"). Headings should stand alone without a label line 
+  introducing them.
+- **Box/card gaps** — double the default gap between cards or boxes (e.g. top tasks, news 
+  cards). If the default grid gap would normally be around 24px, use roughly 48px instead. 
+  This applies to spacing between boxes, not padding inside them.
+- **Title boldness** — reduce the font-weight on headings. Avoid heavy/bold weights (700+); 
+  use a lighter or medium weight (400–500) instead, even for h1/h2. Titles should feel calm 
+  and understated, not shouty.
