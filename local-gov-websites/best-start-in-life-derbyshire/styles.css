@@ -324,7 +324,7 @@ section h2 {
   display: flex;
   align-items: flex-start;
   gap: 48px;
-  padding: 16px 0 64px;
+  padding: 56px 0 64px;
 }
 
 .page-sidebar {
@@ -377,11 +377,6 @@ section h2 {
 
 .page-intro {
   font-size: 1.1rem;
-  max-width: 65ch;
-}
-
-.page-content > p {
-  max-width: 65ch;
 }
 
 .page-content .card-grid {
