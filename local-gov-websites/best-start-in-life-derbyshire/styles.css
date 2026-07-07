@@ -405,6 +405,69 @@ section h2 {
   margin-top: 32px;
 }
 
+/* Sign-up form panel */
+.signup-panel {
+  max-width: 600px;
+  margin-top: 48px;
+  padding: 32px;
+  background: var(--grey-lighter);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.signup-panel h2 {
+  margin-top: 0;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--navy);
+}
+
+.form-group input {
+  font: inherit;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--text);
+}
+
+.form-group input:focus-visible {
+  outline: 3px solid var(--purple);
+  outline-offset: 1px;
+}
+
+.signup-form .btn {
+  align-self: flex-start;
+}
+
+.form-note {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.form-note a {
+  color: var(--purple-dark);
+  text-decoration: underline;
+}
+
 .top-tasks {
   padding: 56px 0;
 }
