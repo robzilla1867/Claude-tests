@@ -72,3 +72,19 @@ tired, busy, or a bit overwhelmed.
 - **Title boldness** — reduce the font-weight on headings. Avoid heavy/bold weights (700+); 
   use a lighter or medium weight (400–500) instead, even for h1/h2. Titles should feel calm 
   and understated, not shouty.
+
+
+  ## Body content spacing
+
+Increase vertical spacing in the main content area (everything between the header and footer). 
+Text currently feels cramped — add noticeably more breathing room:
+
+- Line height: increase to around 1.6–1.7 for body text (paragraphs, list items) rather than 
+  the tighter browser default (~1.4)
+- Paragraph spacing: add clear margin between paragraphs — roughly 1.5x the font size, not 
+  just relying on line-height alone
+- Heading-to-text spacing: headings should have more space above them than below — creates 
+  clear visual grouping with the content that follows, rather than everything running together
+- This applies to all body content sections (hero copy, top tasks, news, any paragraph or 
+  list text) — header and footer keep their own tighter, more compact spacing as already 
+  defined
