@@ -8,6 +8,7 @@
   --purple-dark: #631F73;
   --grey-light: #F1F2F4;
   --grey-lighter: #F7F8F9;
+  --grey-lightest: #FAFBFB;
   --white: #FFFFFF;
   --text: #12203F;
   --text-muted: #4A5568;
@@ -491,7 +492,7 @@ section h2 {
   gap: 10px;
   text-decoration: none;
   color: var(--text);
-  background: var(--grey-lighter);
+  background: var(--grey-lightest);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 32px;
